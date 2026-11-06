@@ -1,0 +1,1602 @@
+{
+  "@@locale": "en",
+  "navHome": "Home",
+  "@navHome": {
+    "description": "Bottom navigation label for Home dashboard"
+  },
+  "navCustomers": "Customers",
+  "@navCustomers": {
+    "description": "Bottom navigation label for Customers directory"
+  },
+  "navDeliveries": "Deliveries",
+  "@navDeliveries": {
+    "description": "Bottom navigation label for Today's Deliveries"
+  },
+  "navPayments": "Payments",
+  "@navPayments": {
+    "description": "Bottom navigation label for Payments & Accounts"
+  },
+  "navSuppliers": "Suppliers",
+  "@navSuppliers": {
+    "description": "Bottom navigation label for Suppliers & Procurement"
+  },
+  "storeStatusActive": "Active",
+  "@storeStatusActive": {
+    "description": "Store status badge label"
+  },
+  "storeDefaultName": "Al-Madina Dairy",
+  "@storeDefaultName": {
+    "description": "Default store name fallback"
+  },
+  "shiftActivePill": "{shift} Active",
+  "@shiftActivePill": {
+    "description": "Pill indicating active shift",
+    "placeholders": {
+      "shift": {
+        "type": "String"
+      }
+    }
+  },
+  "shiftMorning": "Morning",
+  "@shiftMorning": {
+    "description": "Morning shift name"
+  },
+  "shiftEvening": "Evening",
+  "@shiftEvening": {
+    "description": "Evening shift name"
+  },
+  "deliveriesNav": "Deliveries",
+  "@deliveriesNav": {
+    "description": "Link button text to go to deliveries"
+  },
+  "deliveriesProgress": "{completed} of {total} delivered",
+  "@deliveriesProgress": {
+    "description": "Progress label for completed vs total deliveries",
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "statusRemaining": "{count} Remaining",
+  "@statusRemaining": {
+    "description": "Remaining deliveries badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statusSkipped": "{count} Skipped",
+  "@statusSkipped": {
+    "description": "Skipped deliveries badge",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "kpiTotalCustomers": "Total Customers",
+  "@kpiTotalCustomers": {
+    "description": "Label for Total Customers metric"
+  },
+  "kpiActiveSubtitle": "{count} active",
+  "@kpiActiveSubtitle": {
+    "description": "Subtitle showing active customer count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "kpiTotalDues": "Total Dues",
+  "@kpiTotalDues": {
+    "description": "Label for Total Dues metric"
+  },
+  "kpiOverdueSubtitle": "{count} overdue",
+  "@kpiOverdueSubtitle": {
+    "description": "Subtitle showing overdue count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "kpiDailySell": "Daily Sell",
+  "@kpiDailySell": {
+    "description": "Label for Daily Sell metric"
+  },
+  "kpiDailySellSubtitle": "Morning + Evening Quota",
+  "@kpiDailySellSubtitle": {
+    "description": "Subtitle for Daily Sell metric"
+  },
+  "kpiMonthlySell": "Monthly Sell",
+  "@kpiMonthlySell": {
+    "description": "Label for Monthly Sell metric"
+  },
+  "kpiGrowthSubtitle": "{percent}% vs last month",
+  "@kpiGrowthSubtitle": {
+    "description": "Subtitle showing month-over-month growth percent",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "kpiTodayCash": "Today's Cash",
+  "@kpiTodayCash": {
+    "description": "Label for Today's Cash metric"
+  },
+  "kpiTodayCashSubtitle": "Rider & counter inflow",
+  "@kpiTodayCashSubtitle": {
+    "description": "Subtitle for Today's Cash metric"
+  },
+  "kpiAdvanceHeld": "Advance Held",
+  "@kpiAdvanceHeld": {
+    "description": "Label for Advance Held metric"
+  },
+  "kpiPrepaidSubtitle": "{count} prepaid",
+  "@kpiPrepaidSubtitle": {
+    "description": "Subtitle showing prepaid customers count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "monthlyCollection": "Monthly Collection",
+  "@monthlyCollection": {
+    "description": "Label for Monthly Collection banner"
+  },
+  "monthlyTargetSubtitle": "{percent}% of target",
+  "@monthlyTargetSubtitle": {
+    "description": "Monthly collection percent of target",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "localSalesTitle": "Counter Sales",
+  "@localSalesTitle": {
+    "description": "Header for Local Counter Sales section"
+  },
+  "todayTotals": "Today: {litres} L • Rs. {amount}",
+  "@todayTotals": {
+    "description": "Totals for today's counter sales",
+    "placeholders": {
+      "litres": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleButton": "+{litres}L",
+  "@quickSaleButton": {
+    "description": "Quick-tap sale button label",
+    "placeholders": {
+      "litres": {
+        "type": "String"
+      }
+    }
+  },
+  "quickSaleCustomCta": "Add Quick Sale (Custom Quantity / Cash)",
+  "@quickSaleCustomCta": {
+    "description": "Button to open custom quick sale dialog or bottom sheet"
+  },
+  "lastSaleLabel": "Last: {litres}L • Rs. {amount}",
+  "@lastSaleLabel": {
+    "description": "Display for most recent sale",
+    "placeholders": {
+      "litres": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "undoAction": "Undo",
+  "@undoAction": {
+    "description": "Undo action button text"
+  },
+  "quickSaleSuccess": "{litres}L sale recorded",
+  "@quickSaleSuccess": {
+    "description": "Snackbar message on recording a quick sale",
+    "placeholders": {
+      "litres": {
+        "type": "String"
+      }
+    }
+  },
+  "saleUndone": "Sale undone",
+  "@saleUndone": {
+    "description": "Snackbar message when last sale is undone"
+  },
+  "deliveryScheduleTitle": "Delivery Schedule",
+  "@deliveryScheduleTitle": {
+    "description": "Title for Delivery Schedule Overview section"
+  },
+  "departureTime": "Departure: {time}",
+  "@departureTime": {
+    "description": "Departure time label",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "startTime": "Start: {time}",
+  "@startTime": {
+    "description": "Start time label",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "orderCount": "{count} Orders",
+  "@orderCount": {
+    "description": "Order count display",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "crateStatus": "Crates: {status}",
+  "@crateStatus": {
+    "description": "Crates status label",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "cratesReady": "Ready",
+  "@cratesReady": {
+    "description": "Crates ready status"
+  },
+  "cratesPending": "Pending",
+  "@cratesPending": {
+    "description": "Crates pending status"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button label on failure"
+  },
+  "loadFailed": "Failed to load dashboard data",
+  "@loadFailed": {
+    "description": "Error banner message when dashboard fails to load"
+  },
+  "quickSaleTitle": "Quick Counter Sale",
+  "@quickSaleTitle": {
+    "description": "Title of quick sale bottom sheet"
+  },
+  "milkType": "Product / Milk Type",
+  "@milkType": {
+    "description": "Product or milk type selection label"
+  },
+  "quantityLitres": "Quantity (Litres)",
+  "@quantityLitres": {
+    "description": "Quantity field label"
+  },
+  "quickQuantity": "Quick Quantity ({unit})",
+  "@quickQuantity": {
+    "description": "Label for quick quantity chips",
+    "placeholders": {
+      "unit": {
+        "type": "String",
+        "example": "Litre"
+      }
+    }
+  },
+  "quickAmount": "Quick Amount (Rs.)",
+  "@quickAmount": {
+    "description": "Label for quick amount chips"
+  },
+  "ratePerLitre": "Rate per Litre",
+  "@ratePerLitre": {
+    "description": "Rate field label"
+  },
+  "totalAmount": "Total Amount",
+  "@totalAmount": {
+    "description": "Total calculated amount label"
+  },
+  "recordSale": "Record Sale",
+  "@recordSale": {
+    "description": "Button label to submit quick sale"
+  },
+  "saleRecorded": "Sale recorded successfully",
+  "@saleRecorded": {
+    "description": "Confirmation message after recording custom quick sale"
+  },
+  "errorInvalidQuantity": "Enter a valid quantity greater than 0",
+  "@errorInvalidQuantity": {
+    "description": "Validation error for quantity"
+  },
+  "errorInvalidRate": "Enter a valid rate greater than 0",
+  "@errorInvalidRate": {
+    "description": "Validation error for rate"
+  },
+  "errorSelectProduct": "Please select a product",
+  "@errorSelectProduct": {
+    "description": "Validation error for product"
+  },
+  "customersTitle": "Customers",
+  "@customersTitle": {
+    "description": "Title of the Customers screen"
+  },
+  "customersCount": "{count} Customers",
+  "@customersCount": {
+    "description": "Customer count display",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "totalStatLabel": "Total",
+  "@totalStatLabel": {
+    "description": "Label for total customers stat"
+  },
+  "withDuesStatLabel": "With Dues",
+  "@withDuesStatLabel": {
+    "description": "Label for with dues stat"
+  },
+  "onAdvanceStatLabel": "On Advance",
+  "@onAdvanceStatLabel": {
+    "description": "Label for on advance stat"
+  },
+  "filterAll": "All",
+  "@filterAll": {
+    "description": "Filter chip: all customers"
+  },
+  "filterHasDues": "Has Dues",
+  "@filterHasDues": {
+    "description": "Filter chip: customers with dues"
+  },
+  "filterOnAdvance": "On Advance",
+  "@filterOnAdvance": {
+    "description": "Filter chip: customers on advance"
+  },
+  "filterMorning": "Morning",
+  "@filterMorning": {
+    "description": "Filter chip: morning deliveries"
+  },
+  "filterEvening": "Evening",
+  "@filterEvening": {
+    "description": "Filter chip: evening deliveries"
+  },
+  "searchCustomersHint": "Search by name, phone, area...",
+  "@searchCustomersHint": {
+    "description": "Search input hint in customers directory"
+  },
+  "searchSuppliersHint": "Search by name or phone...",
+  "@searchSuppliersHint": {
+    "description": "Search input hint in suppliers directory"
+  },
+  "searchTransactionsHint": "Search by name or note...",
+  "@searchTransactionsHint": {
+    "description": "Search input hint in transactions feed"
+  },
+  "quotaAmLabel": "AM",
+  "@quotaAmLabel": {
+    "description": "Morning quota prefix"
+  },
+  "quotaPmLabel": "PM",
+  "@quotaPmLabel": {
+    "description": "Evening quota prefix"
+  },
+  "ratePerLitreSuffix": "Rs/L",
+  "@ratePerLitreSuffix": {
+    "description": "Rate suffix per litre"
+  },
+  "dueBalanceLabel": "Due: Rs. {amount}",
+  "@dueBalanceLabel": {
+    "description": "Financial balance label for customer with dues",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "advanceBalanceLabel": "Advance: Rs. {amount}",
+  "@advanceBalanceLabel": {
+    "description": "Financial balance label for customer on advance",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "clearedBalanceLabel": "Cleared: Rs. 0",
+  "@clearedBalanceLabel": {
+    "description": "Financial balance label for customer with zero balance"
+  },
+  "recordPaymentAction": "Record Payment",
+  "@recordPaymentAction": {
+    "description": "Action button to record a payment"
+  },
+  "addRechargeAction": "Add Recharge",
+  "@addRechargeAction": {
+    "description": "Action button to add prepaid credit"
+  },
+  "resumeSupplyAction": "Resume Supply",
+  "@resumeSupplyAction": {
+    "description": "Action button to resume delivery supply"
+  },
+  "supplyResumedMessage": "Supply resumed for {name}",
+  "@supplyResumedMessage": {
+    "description": "Snackbar message when supply is resumed",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ledgerAction": "Ledger",
+  "@ledgerAction": {
+    "description": "Action button to view customer ledger"
+  },
+  "addCustomerFab": "Add Customer",
+  "@addCustomerFab": {
+    "description": "Floating action button label to add a customer"
+  },
+  "noCustomersFound": "No customers found",
+  "@noCustomersFound": {
+    "description": "Empty state title when no customers match"
+  },
+  "noCustomersMatching": "Try adjusting your search or filter",
+  "@noCustomersMatching": {
+    "description": "Empty state subtitle"
+  },
+  "clearFiltersAction": "Clear Filters",
+  "@clearFiltersAction": {
+    "description": "Button to reset search and filters"
+  },
+  "addCustomerTitle": "Add New Customer",
+  "@addCustomerTitle": {
+    "description": "Sheet title when creating a customer"
+  },
+  "editCustomerTitle": "Edit Customer",
+  "@editCustomerTitle": {
+    "description": "Sheet title when editing a customer"
+  },
+  "customerNameLabel": "Customer Name",
+  "@customerNameLabel": {
+    "description": "Label for customer name input"
+  },
+  "customerPhoneLabel": "Phone Number",
+  "@customerPhoneLabel": {
+    "description": "Label for customer phone input"
+  },
+  "customerAddressLabel": "Address / House #",
+  "@customerAddressLabel": {
+    "description": "Label for customer address input"
+  },
+  "deliverySequenceLabel": "Delivery Sequence",
+  "@deliverySequenceLabel": {
+    "description": "Label for delivery sequence order"
+  },
+  "dailyQuotaAmLabel": "Morning Quota (Litres)",
+  "@dailyQuotaAmLabel": {
+    "description": "Label for morning quota input"
+  },
+  "dailyQuotaPmLabel": "Evening Quota (Litres)",
+  "@dailyQuotaPmLabel": {
+    "description": "Label for evening quota input"
+  },
+  "agreedRateLabel": "Agreed Rate per Litre",
+  "@agreedRateLabel": {
+    "description": "Label for agreed rate input"
+  },
+  "notesLabel": "Notes (Optional)",
+  "@notesLabel": {
+    "description": "Label for customer notes input"
+  },
+  "saveChangesAction": "Save Changes",
+  "@saveChangesAction": {
+    "description": "Button label to save edits"
+  },
+  "customerAddedMessage": "Customer added successfully",
+  "@customerAddedMessage": {
+    "description": "Confirmation message after adding customer"
+  },
+  "customerUpdatedMessage": "Customer updated successfully",
+  "@customerUpdatedMessage": {
+    "description": "Confirmation message after updating customer"
+  },
+  "errorNameRequired": "Customer name is required",
+  "@errorNameRequired": {
+    "description": "Validation error when customer name is empty"
+  },
+  "errorPhoneRequired": "Phone number is required",
+  "@errorPhoneRequired": {
+    "description": "Validation error when phone number is empty"
+  },
+  "errorPhoneTooLong": "Phone number cannot be more than 11 digits",
+  "@errorPhoneTooLong": {
+    "description": "Validation error when phone number exceeds 11 digits"
+  },
+  "errorQuotaRequired": "At least one quota (AM or PM) must be greater than 0",
+  "@errorQuotaRequired": {
+    "description": "Validation error when both morning and evening quotas are zero"
+  },
+  "customerDetailTitle": "Customer Profile",
+  "@customerDetailTitle": {
+    "description": "Screen title for Customer Detail"
+  },
+  "editProfileAction": "Edit Profile",
+  "@editProfileAction": {
+    "description": "Action button label to edit customer profile"
+  },
+  "payableBalanceLabel": "Payable Balance",
+  "@payableBalanceLabel": {
+    "description": "Label for due balance card"
+  },
+  "prepaidReserveLabel": "Prepaid Reserve",
+  "@prepaidReserveLabel": {
+    "description": "Label for advance balance card"
+  },
+  "deliveryPreferencesTitle": "Delivery Preferences",
+  "@deliveryPreferencesTitle": {
+    "description": "Section header for customer delivery preferences"
+  },
+  "tabAdvanceLedger": "Ledger",
+  "@tabAdvanceLedger": {
+    "description": "Tab title for customer ledger"
+  },
+  "tabDeliveryHistory": "Deliveries",
+  "@tabDeliveryHistory": {
+    "description": "Tab title for customer delivery history"
+  },
+  "tabPaymentHistory": "Payments",
+  "@tabPaymentHistory": {
+    "description": "Tab title for customer payment history"
+  },
+  "recordPaymentCta": "Record Payment",
+  "@recordPaymentCta": {
+    "description": "Button to record payment from customer"
+  },
+  "addTopupCta": "Add Topup",
+  "@addTopupCta": {
+    "description": "Button to add advance topup for customer"
+  },
+  "shareBillCta": "Share Bill",
+  "@shareBillCta": {
+    "description": "Button to share customer bill or ledger statement"
+  },
+  "shareDetailsAction": "Share Details",
+  "@shareDetailsAction": {
+    "description": "Button to share details"
+  },
+  "collectPaymentBottomBar": "Collect Payment",
+  "@collectPaymentBottomBar": {
+    "description": "CTA button in sticky bottom bar on customer detail screen"
+  },
+  "noDeliveriesRecorded": "No deliveries recorded yet",
+  "@noDeliveriesRecorded": {
+    "description": "Empty state message when customer has no delivery history"
+  },
+  "noPaymentsRecorded": "No payments recorded yet",
+  "@noPaymentsRecorded": {
+    "description": "Empty state message when customer has no payment history"
+  },
+  "customerNotFound": "Customer not found",
+  "@customerNotFound": {
+    "description": "Error message when customer does not exist"
+  },
+  "callAction": "Call",
+  "@callAction": {
+    "description": "Call action button label"
+  },
+  "transactionsAndLedgerTitle": "Transactions & Ledger",
+  "@transactionsAndLedgerTitle": {
+    "description": "Section title for customer ledger list"
+  },
+  "ledgerDebitBadge": "Debit",
+  "@ledgerDebitBadge": {
+    "description": "Badge label for delivery debit charge"
+  },
+  "ledgerPaidBadge": "Paid",
+  "@ledgerPaidBadge": {
+    "description": "Badge label for payment received"
+  },
+  "ledgerCreditBadge": "Credit",
+  "@ledgerCreditBadge": {
+    "description": "Badge label for advance balance credit"
+  },
+  "ledgerClearedBadge": "Cleared",
+  "@ledgerClearedBadge": {
+    "description": "Badge label for settled or cleared transaction"
+  },
+  "duesAfterChargeLabel": "Dues after charge: Rs. {amount}",
+  "@duesAfterChargeLabel": {
+    "description": "Running balance note showing customer dues after transaction",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "advanceReserveLabel": "Advance reserve: Rs. {amount}",
+  "@advanceReserveLabel": {
+    "description": "Running balance note showing customer advance reserve after transaction",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "cashPaymentTitle": "Cash Payment Received",
+  "@cashPaymentTitle": {
+    "description": "Ledger entry title for cash payment"
+  },
+  "raastPaymentTitle": "Raast Payment Received",
+  "@raastPaymentTitle": {
+    "description": "Ledger entry title for Raast payment"
+  },
+  "bankPaymentTitle": "Bank Transfer Received",
+  "@bankPaymentTitle": {
+    "description": "Ledger entry title for bank transfer payment"
+  },
+  "advanceTopupTitle": "Advance Topup",
+  "@advanceTopupTitle": {
+    "description": "Ledger entry title for advance topup"
+  },
+  "advanceDeductionTitle": "Advance Deduction",
+  "@advanceDeductionTitle": {
+    "description": "Ledger entry title for advance deduction"
+  },
+  "autoSettlementTitle": "Auto Settlement",
+  "@autoSettlementTitle": {
+    "description": "Ledger entry title for auto settlement"
+  },
+  "morningDeliveryTitle": "Morning Delivery {quantity}L",
+  "@morningDeliveryTitle": {
+    "description": "Ledger entry title for morning delivery",
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "eveningDeliveryTitle": "Evening Delivery {quantity}L",
+  "@eveningDeliveryTitle": {
+    "description": "Ledger entry title for evening delivery",
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "noLedgerEntries": "No ledger transactions yet",
+  "@noLedgerEntries": {
+    "description": "Empty state title when customer has no ledger entries"
+  },
+  "noLedgerEntriesSubtitle": "Deliveries, payments and adjustments will appear here.",
+  "@noLedgerEntriesSubtitle": {
+    "description": "Empty state subtitle when customer has no ledger entries"
+  },
+  "loadMoreEntries": "Load More",
+  "@loadMoreEntries": {
+    "description": "Button to load more ledger transactions"
+  },
+  "deliveryHistoryTitle": "Deliveries",
+  "@deliveryHistoryTitle": {
+    "description": "Section header for the delivery history tab"
+  },
+  "deliveryHistoryEmptySubtitle": "Deliveries for this customer will appear here.",
+  "@deliveryHistoryEmptySubtitle": {
+    "description": "Empty state subtitle when customer has no delivery history"
+  },
+  "deliveryStatusDelivered": "Delivered",
+  "@deliveryStatusDelivered": {
+    "description": "Status badge label for a completed delivery"
+  },
+  "deliveryStatusSkipped": "Skipped",
+  "@deliveryStatusSkipped": {
+    "description": "Status badge label for a skipped delivery"
+  },
+  "deliveryStatusPending": "Pending",
+  "@deliveryStatusPending": {
+    "description": "Status badge label for a pending delivery"
+  },
+  "paymentHistoryTitle": "Payment History",
+  "@paymentHistoryTitle": {
+    "description": "Section header for the payment history tab"
+  },
+  "paymentHistoryEmptySubtitle": "Payments collected for this customer will appear here.",
+  "@paymentHistoryEmptySubtitle": {
+    "description": "Empty state subtitle when customer has no payment history"
+  },
+  "paymentTypeCashPayment": "Cash Payment",
+  "@paymentTypeCashPayment": {
+    "description": "Payment card title for cash payment type"
+  },
+  "paymentTypeAdvanceTopup": "Advance Topup",
+  "@paymentTypeAdvanceTopup": {
+    "description": "Payment card title for advance topup type"
+  },
+  "paymentMethodCash": "Cash",
+  "@paymentMethodCash": {
+    "description": "Method badge label for cash payment"
+  },
+  "paymentMethodRaast": "Raast",
+  "@paymentMethodRaast": {
+    "description": "Method badge label for Raast digital payment"
+  },
+  "paymentMethodBank": "Bank",
+  "@paymentMethodBank": {
+    "description": "Method badge label for bank transfer"
+  },
+  "recordPaymentModalTitle": "Record Payment",
+  "@recordPaymentModalTitle": {
+    "description": "Modal title for recording payment"
+  },
+  "addTopupModalTitle": "Add Advance Topup",
+  "@addTopupModalTitle": {
+    "description": "Modal title for adding advance topup"
+  },
+  "paymentModeDues": "Pay Dues",
+  "@paymentModeDues": {
+    "description": "Segment tab to pay existing customer dues"
+  },
+  "paymentModeAdvance": "Advance Topup",
+  "@paymentModeAdvance": {
+    "description": "Segment tab to add prepaid advance balance"
+  },
+  "amountLabel": "Amount (Rs.)",
+  "@amountLabel": {
+    "description": "Label for payment amount input field"
+  },
+  "payFullDueShortcut": "Pay Full: Rs. {amount}",
+  "@payFullDueShortcut": {
+    "description": "Quick chip to pay full outstanding dues",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "receiptRefLabel": "Receipt / Ref Number (Optional)",
+  "@receiptRefLabel": {
+    "description": "Label for receipt or Raast reference input"
+  },
+  "notesOptionalLabel": "Notes (Optional)",
+  "@notesOptionalLabel": {
+    "description": "Label for optional notes field"
+  },
+  "errorAmountRequired": "Please enter a valid amount greater than 0",
+  "@errorAmountRequired": {
+    "description": "Validation error when payment amount is empty or zero"
+  },
+  "paymentRecordedSuccess": "Payment of Rs. {amount} recorded",
+  "@paymentRecordedSuccess": {
+    "description": "Snackbar message when payment is recorded",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "topupRecordedSuccess": "Topup of Rs. {amount} added",
+  "@topupRecordedSuccess": {
+    "description": "Snackbar message when advance topup is added",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "shareBillMessage": "Al-Madina Dairy Statement\nCustomer: {customer}\nPayable Dues: Rs. {dues}\nAdvance Balance: Rs. {advance}",
+  "@shareBillMessage": {
+    "description": "Formatted WhatsApp text statement for bill sharing",
+    "placeholders": {
+      "customer": {
+        "type": "String"
+      },
+      "dues": {
+        "type": "String"
+      },
+      "advance": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveriesTitle": "Today's Deliveries",
+  "@deliveriesTitle": {
+    "description": "Title of the main deliveries screen"
+  },
+  "markAllAction": "Mark All",
+  "@markAllAction": {
+    "description": "Bulk action button to mark deliveries"
+  },
+  "searchDeliveriesHint": "Search by customer, phone, house #...",
+  "@searchDeliveriesHint": {
+    "description": "Hint text for deliveries search bar"
+  },
+  "noDeliveriesFound": "No deliveries found",
+  "@noDeliveriesFound": {
+    "description": "Title when no deliveries match filters or criteria"
+  },
+  "noDeliveriesMatching": "Try adjusting date, shift, or search filter.",
+  "@noDeliveriesMatching": {
+    "description": "Subtitle when no deliveries match filters"
+  },
+  "deliverAction": "Deliver",
+  "@deliverAction": {
+    "description": "Button to mark a delivery as delivered"
+  },
+  "skipAction": "Skip",
+  "@skipAction": {
+    "description": "Button to skip a delivery"
+  },
+  "confirmDeliverTitle": "Confirm Delivery",
+  "@confirmDeliverTitle": {
+    "description": "Title of the delivery confirmation dialog"
+  },
+  "confirmDeliverBody": "Deliver {qty}L to this customer for Rs. {amount}?",
+  "@confirmDeliverBody": {
+    "description": "Body of the delivery confirmation dialog",
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmAction": "Confirm",
+  "@confirmAction": {
+    "description": "Generic confirm button label"
+  },
+  "cancelAction": "Cancel",
+  "@cancelAction": {
+    "description": "Generic cancel button label"
+  },
+  "skipReasonHint": "Reason for skipping (e.g. customer away)",
+  "@skipReasonHint": {
+    "description": "Hint text for skip reason input"
+  },
+  "skipDeliveryTitle": "Skip Delivery",
+  "@skipDeliveryTitle": {
+    "description": "Title of the skip reason dialog"
+  },
+  "errorSkipReasonRequired": "Please enter a reason for skipping",
+  "@errorSkipReasonRequired": {
+    "description": "Validation error when skip reason is empty"
+  },
+  "markAllConfirmTitle": "Mark All Delivered",
+  "@markAllConfirmTitle": {
+    "description": "Title of Mark All confirmation dialog"
+  },
+  "markAllConfirmBody": "This will mark all {count} pending deliveries as delivered (cash payment).",
+  "@markAllConfirmBody": {
+    "description": "Body of Mark All confirmation dialog",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveredSuccess": "Delivery marked as delivered",
+  "@deliveredSuccess": {
+    "description": "Snackbar when a delivery is marked delivered"
+  },
+  "skippedSuccess": "Delivery skipped",
+  "@skippedSuccess": {
+    "description": "Snackbar when a delivery is skipped"
+  },
+  "deliveryResetSuccess": "Delivery reset to pending",
+  "@deliveryResetSuccess": {
+    "description": "Snackbar when a delivery is undone back to pending"
+  },
+  "markAllSuccess": "All deliveries marked as delivered",
+  "@markAllSuccess": {
+    "description": "Snackbar after Mark All completes"
+  },
+  "deliveriesGeneratedSuccess": "Today's deliveries generated",
+  "@deliveriesGeneratedSuccess": {
+    "description": "Snackbar when auto-generation creates deliveries"
+  },
+  "paymentMethodCashLabel": "Cash",
+  "@paymentMethodCashLabel": {
+    "description": "Payment method chip: cash on delivery"
+  },
+  "paymentMethodCreditLabel": "Credit",
+  "@paymentMethodCreditLabel": {
+    "description": "Payment method chip: add to dues"
+  },
+  "paymentMethodAdvanceLabel": "Advance",
+  "@paymentMethodAdvanceLabel": {
+    "description": "Payment method chip: deduct from advance"
+  },
+  "selectPaymentMethod": "Payment Method",
+  "@selectPaymentMethod": {
+    "description": "Label for payment method selector in deliver dialog"
+  },
+  "paymentsTitle": "Payments & Accounts",
+  "@paymentsTitle": {
+    "description": "Title of the Payments & Accounts screen"
+  },
+  "todayInflowKpi": "Today's Inflow",
+  "@todayInflowKpi": {
+    "description": "KPI tile label for today's total inflow"
+  },
+  "cashInHandKpi": "Cash in Hand",
+  "@cashInHandKpi": {
+    "description": "KPI tile label for cash in hand"
+  },
+  "counterVerifiedNote": "Counter verified",
+  "@counterVerifiedNote": {
+    "description": "Subtitle note under Cash in Hand KPI"
+  },
+  "customerDuesKpi": "Customer Dues",
+  "@customerDuesKpi": {
+    "description": "KPI tile label for total customer dues"
+  },
+  "dairyPayablesKpi": "Dairy Payables",
+  "@dairyPayablesKpi": {
+    "description": "KPI tile label for amounts payable to suppliers"
+  },
+  "recordPaymentInOutCta": "+ Record Payment In / Out",
+  "@recordPaymentInOutCta": {
+    "description": "Full-width CTA button on Payments screen"
+  },
+  "whatsappRemindersTitle": "WhatsApp Reminders",
+  "@whatsappRemindersTitle": {
+    "description": "Section header for WhatsApp reminder cards"
+  },
+  "sendReminderAction": "Send Reminder",
+  "@sendReminderAction": {
+    "description": "Button to send WhatsApp payment reminder"
+  },
+  "logCashReceivedAction": "+ Log Cash Received",
+  "@logCashReceivedAction": {
+    "description": "Button to open payment sheet from reminder card"
+  },
+  "overdueLabel": "{days}d overdue",
+  "@overdueLabel": {
+    "description": "Badge showing how many days overdue a customer is",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "filterCollections": "Collections",
+  "@filterCollections": {
+    "description": "Filter chip: customer payment collections"
+  },
+  "filterPayables": "Payables",
+  "@filterPayables": {
+    "description": "Filter chip: supplier outflows / payables"
+  },
+  "transactionsHeader": "Today's Transactions & Ledgers",
+  "@transactionsHeader": {
+    "description": "Section header above the unified transaction feed"
+  },
+  "liveSyncLabel": "LIVE SYNC",
+  "@liveSyncLabel": {
+    "description": "Static live sync indicator pill"
+  },
+  "txCustomerCollection": "Customer Collection",
+  "@txCustomerCollection": {
+    "description": "Transaction feed card type: customer payment received"
+  },
+  "txAdvanceDeposit": "Advance Deposit",
+  "@txAdvanceDeposit": {
+    "description": "Transaction feed card type: advance balance topup"
+  },
+  "txSupplierOutflow": "Supplier Outflow",
+  "@txSupplierOutflow": {
+    "description": "Transaction feed card type: payment sent to supplier"
+  },
+  "txCounterRetail": "Counter Retail",
+  "@txCounterRetail": {
+    "description": "Transaction feed card type: walk-in counter sale"
+  },
+  "noTransactionsFound": "No transactions today",
+  "@noTransactionsFound": {
+    "description": "Empty state when transaction feed is empty"
+  },
+  "noTransactionsSubtitle": "Payments, deliveries, and sales will appear here.",
+  "@noTransactionsSubtitle": {
+    "description": "Empty state subtitle for transaction feed"
+  },
+  "noOverdueCustomers": "No overdue customers",
+  "@noOverdueCustomers": {
+    "description": "Empty state when no customers have dues"
+  },
+  "supplierPaymentBadge": "Supplier Outflow",
+  "@supplierPaymentBadge": {
+    "description": "Badge label on supplier outflow transaction cards"
+  },
+  "advanceBadge": "Advance",
+  "@advanceBadge": {
+    "description": "Badge label on advance deposit transaction cards"
+  },
+  "clearedBadge": "Cleared",
+  "@clearedBadge": {
+    "description": "Badge label on cleared collection transaction cards"
+  },
+  "dailyRetailBadge": "Daily Retail",
+  "@dailyRetailBadge": {
+    "description": "Badge label on counter retail transaction cards"
+  },
+  "suppliersScreenTitle": "Suppliers & Procurement",
+  "@suppliersScreenTitle": {
+    "description": "App bar title on suppliers screen"
+  },
+  "totalMilkInwardKpi": "Milk Received",
+  "@totalMilkInwardKpi": {
+    "description": "KPI metric title for milk collected today"
+  },
+  "todayPayableKpi": "Today's Payable",
+  "@todayPayableKpi": {
+    "description": "KPI metric title for supplier payables today"
+  },
+  "avgRateSubtitle": "Avg rate",
+  "@avgRateSubtitle": {
+    "description": "Average rate subtitle on payable KPI"
+  },
+  "suppliersSectionTitle": "Suppliers",
+  "@suppliersSectionTitle": {
+    "description": "Section header above supplier cards"
+  },
+  "farmsCountBadge": "{count} Farms",
+  "@farmsCountBadge": {
+    "description": "Farm count badge in suppliers section header",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filterPendingKhata": "Pending Khata",
+  "@filterPendingKhata": {
+    "description": "Filter chip for suppliers with pending khata"
+  },
+  "logDropAction": "Log Drop",
+  "@logDropAction": {
+    "description": "Log drop action button on awaiting supplier card"
+  },
+  "payCashAction": "Pay Cash",
+  "@payCashAction": {
+    "description": "Pay cash action button on supplier card"
+  },
+  "viewKhataAction": "View Khata",
+  "@viewKhataAction": {
+    "description": "View khata action button on supplier card"
+  },
+  "pendingKhataLabel": "Pending Khata",
+  "@pendingKhataLabel": {
+    "description": "Pending khata label on supplier card"
+  },
+  "advanceLabel": "Advance",
+  "@advanceLabel": {
+    "description": "Advance payment label on supplier card"
+  },
+  "allClearedKhataLabel": "All Khata Cleared",
+  "@allClearedKhataLabel": {
+    "description": "All khata cleared label on supplier card"
+  },
+  "qtyLabel": "QTY",
+  "@qtyLabel": {
+    "description": "Quantity column header in metrics grid"
+  },
+  "ratePerLitreLabel": "RATE/L",
+  "@ratePerLitreLabel": {
+    "description": "Rate per litre column header in metrics grid"
+  },
+  "batchValueLabel": "Batch Value",
+  "@batchValueLabel": {
+    "description": "Batch value label on supplier card"
+  },
+  "noSuppliersFound": "No suppliers found",
+  "@noSuppliersFound": {
+    "description": "Empty state title when no suppliers match filter"
+  },
+  "noSuppliersSubtitle": "Suppliers and their incoming milk batches will appear here.",
+  "@noSuppliersSubtitle": {
+    "description": "Empty state subtitle for suppliers list"
+  },
+  "paySupplierModalTitle": "Pay Supplier Cash",
+  "@paySupplierModalTitle": {
+    "description": "Title of pay supplier cash modal sheet"
+  },
+  "amountOwedLabel": "Pending Khata Owed",
+  "@amountOwedLabel": {
+    "description": "Label for pending khata amount owed to supplier"
+  },
+  "recordMilkModalTitle": "Record Inward Milk",
+  "@recordMilkModalTitle": {
+    "description": "Modal title for recording inward milk from supplier"
+  },
+  "quantityLitresLabel": "Quantity (Litres)",
+  "@quantityLitresLabel": {
+    "description": "Label for milk quantity input in litres"
+  },
+  "batchValueCalculatedLabel": "Calculated Batch Value",
+  "@batchValueCalculatedLabel": {
+    "description": "Label for live calculated batch total value"
+  },
+  "recordBatchAction": "Record Batch",
+  "@recordBatchAction": {
+    "description": "Button to save inward milk batch"
+  },
+  "batchRecordedSuccess": "Inward milk batch recorded successfully",
+  "@batchRecordedSuccess": {
+    "description": "Snackbar message when milk batch is recorded"
+  },
+  "errorQuantityRequired": "Please enter a valid quantity greater than 0",
+  "@errorQuantityRequired": {
+    "description": "Validation error when quantity is invalid"
+  },
+  "errorSupplierRateNotSet": "Please set the supplier's rate per litre first",
+  "@errorSupplierRateNotSet": {
+    "description": "Validation error when the selected supplier has no rate configured"
+  },
+  "supplierKhataTitle": "Supplier Khata",
+  "@supplierKhataTitle": {
+    "description": "Screen title for supplier khata ledger"
+  },
+  "collectionHistoryTab": "Collections",
+  "@collectionHistoryTab": {
+    "description": "Tab label for milk collection history"
+  },
+  "paymentsMadeTab": "Payments",
+  "@paymentsMadeTab": {
+    "description": "Tab label for payments made to supplier"
+  },
+  "noCollectionsRecorded": "No milk collections recorded",
+  "@noCollectionsRecorded": {
+    "description": "Empty state title for supplier collections"
+  },
+  "noCollectionsSubtitle": "Logged milk collections for this supplier will appear here.",
+  "@noCollectionsSubtitle": {
+    "description": "Empty state subtitle for supplier collections"
+  },
+  "noSupplierPaymentsRecorded": "No payments recorded yet",
+  "@noSupplierPaymentsRecorded": {
+    "description": "Empty state title for supplier payments"
+  },
+  "noSupplierPaymentsSubtitle": "Cash and bank payments made to this supplier will appear here.",
+  "@noSupplierPaymentsSubtitle": {
+    "description": "Empty state subtitle for supplier payments"
+  },
+  "totalMilkSupplied": "Total Milk Supplied",
+  "@totalMilkSupplied": {
+    "description": "Label for total milk supplied metric"
+  },
+  "unpaidMilkLabel": "Unpaid milk",
+  "@unpaidMilkLabel": {
+    "description": "Litres of milk still to be paid for, shown in the supplier khata banner"
+  },
+  "callSupplierAction": "Call Supplier",
+  "@callSupplierAction": {
+    "description": "Button to call supplier phone"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "App bar title for the Settings screen"
+  },
+  "settingsSubtitle": "Store configuration and delivery operations",
+  "@settingsSubtitle": {
+    "description": "Subtitle on settings screen"
+  },
+  "settingsStoreProfile": "Store Profile",
+  "@settingsStoreProfile": {
+    "description": "Settings menu item for store profile"
+  },
+  "settingsStoreProfileSubtitle": "Shop name, contact phone, and address",
+  "@settingsStoreProfileSubtitle": {
+    "description": "Subtitle for store profile menu item"
+  },
+  "settingsProductsPricing": "Products & Pricing",
+  "@settingsProductsPricing": {
+    "description": "Settings menu item for products and pricing"
+  },
+  "settingsProductsPricingSubtitle": "Manage milk products and rates",
+  "@settingsProductsPricingSubtitle": {
+    "description": "Subtitle for products and pricing menu item"
+  },
+  "storeProfileTitle": "Store Profile",
+  "@storeProfileTitle": {
+    "description": "Title of the store profile edit screen"
+  },
+  "storeNameLabel": "Store Name",
+  "@storeNameLabel": {
+    "description": "Input label for store name"
+  },
+  "storePhoneLabel": "Store Phone",
+  "@storePhoneLabel": {
+    "description": "Input label for store phone"
+  },
+  "storeAddressLabel": "Store Address",
+  "@storeAddressLabel": {
+    "description": "Input label for store address"
+  },
+  "profileSavedSuccess": "Store profile saved successfully",
+  "@profileSavedSuccess": {
+    "description": "Snackbar message when store profile is saved"
+  },
+  "errorStoreNameRequired": "Store name cannot be empty",
+  "@errorStoreNameRequired": {
+    "description": "Validation error when store name is blank"
+  },
+  "productsPricingTitle": "Products & Pricing",
+  "@productsPricingTitle": {
+    "description": "Screen title for products and pricing"
+  },
+  "addProductFab": "Add Product",
+  "@addProductFab": {
+    "description": "FAB label to add a new product"
+  },
+  "addProductModalTitle": "Add Product",
+  "@addProductModalTitle": {
+    "description": "Modal title for adding a product"
+  },
+  "editProductModalTitle": "Edit Product",
+  "@editProductModalTitle": {
+    "description": "Modal title for editing a product"
+  },
+  "productNameInputLabel": "Product Name",
+  "@productNameInputLabel": {
+    "description": "Label for product name input"
+  },
+  "productDescriptionInputLabel": "Description (Optional)",
+  "@productDescriptionInputLabel": {
+    "description": "Label for product description input"
+  },
+  "productDefaultRateInputLabel": "Default Rate / Litre (Rs.)",
+  "@productDefaultRateInputLabel": {
+    "description": "Label for product default rate input"
+  },
+  "productSavedSuccess": "Product saved successfully",
+  "@productSavedSuccess": {
+    "description": "Snackbar message when product is saved"
+  },
+  "productDeactivatedSuccess": "Product deactivated",
+  "@productDeactivatedSuccess": {
+    "description": "Snackbar message when product is deactivated"
+  },
+  "productActivatedSuccess": "Product activated",
+  "@productActivatedSuccess": {
+    "description": "Snackbar message when product is activated"
+  },
+  "deactivateProductTitle": "Deactivate Product",
+  "@deactivateProductTitle": {
+    "description": "Title of product deactivation confirmation dialog"
+  },
+  "deactivateProductConfirm": "Are you sure you want to deactivate \"{name}\"?",
+  "@deactivateProductConfirm": {
+    "description": "Confirmation message to deactivate a product",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotDeactivateProduct": "Cannot deactivate: Active customers are assigned to this product.",
+  "@cannotDeactivateProduct": {
+    "description": "Warning message when attempting to deactivate a product that is in use"
+  },
+  "noProductsFound": "No products found",
+  "@noProductsFound": {
+    "description": "Empty state title for products screen"
+  },
+  "noProductsSubtitle": "Add milk products and default pricing.",
+  "@noProductsSubtitle": {
+    "description": "Empty state subtitle for products screen"
+  },
+  "activeStatus": "Active",
+  "@activeStatus": {
+    "description": "Active status label"
+  },
+  "inactiveStatus": "Inactive",
+  "@inactiveStatus": {
+    "description": "Inactive status label"
+  },
+  "shiftsSectionTitle": "Delivery Shifts",
+  "@shiftsSectionTitle": {
+    "description": "Section header for shifts"
+  },
+  "morningShiftName": "Morning Shift",
+  "@morningShiftName": {
+    "description": "Display name for morning delivery shift"
+  },
+  "eveningShiftName": "Evening Shift",
+  "@eveningShiftName": {
+    "description": "Display name for evening delivery shift"
+  },
+  "shiftStartTimeLabel": "Start Time",
+  "@shiftStartTimeLabel": {
+    "description": "Label for shift start time"
+  },
+  "shiftEndTimeLabel": "End Time",
+  "@shiftEndTimeLabel": {
+    "description": "Label for shift end time"
+  },
+  "shiftSavedSuccess": "Shift updated successfully",
+  "@shiftSavedSuccess": {
+    "description": "Snackbar message when shift is updated"
+  },
+  "billReceiptTitle": "BILL",
+  "billReceiptDate": "Date: {date}",
+  "@billReceiptDate": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "billReceiptPhone": "Phone: {phone}",
+  "@billReceiptPhone": {
+    "placeholders": {
+      "phone": {}
+    }
+  },
+  "billReceiptAddress": "Address: {address}",
+  "@billReceiptAddress": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "billPeriodLabel": "Duration of bill:",
+  "@billPeriodLabel": {},
+  "billPeriodDates": "{start} to {end}",
+  "@billPeriodDates": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "billCustomerPhone": "Phone: ",
+  "billCustomerAddress": "Address: ",
+  "billProduct": "PRODUCT",
+  "billRate": "RATE",
+  "billWeight": "WEIGHT",
+  "billTotal": "TOTAL",
+  "billDues": "Dues",
+  "billPreviousAdvance": "Advance",
+  "billPaidAmount": "Paid Amount",
+  "billRefundAmount": "Refund",
+  "billSubtotalDue": "Subtotal (Amount Due): ",
+  "billSubtotalAdvance": "Subtotal (Advance): ",
+  "billSubtotal": "Subtotal",
+  "billThankYou": "Thank you for your business!",
+  "searchByDateHint": "Search by date (e.g. 15 Oct, 2026)",
+  "@searchByDateHint": {
+    "description": "Hint for delivery search text field"
+  },
+  "filterUndelivered": "Undelivered",
+  "@filterUndelivered": {
+    "description": "Filter label for undelivered deliveries"
+  },
+  "shareDeliveryReportTitle": "Share Delivery Report",
+  "shareReportThisWeek": "This Week",
+  "shareReportThisMonth": "This Month",
+  "shareReportCustom": "Custom Date Range",
+  "addReceiverNote": "Add Receiver Note",
+  "receiverNoteHint": "e.g. Received by Ali",
+  "deliveryReportPreview": "Report Preview",
+  "shareTextBtn": "Share via WhatsApp/SMS",
+  "receiverNamePrefix": "Note: ",
+  "addNoteHint": "Enter name or note",
+  "tabSummary": "Summary",
+  "@tabSummary": {
+    "description": "Tab title for customer summary"
+  },
+  "statusActive": "Active",
+  "@statusActive": {
+    "description": "Status badge label for active state"
+  },
+  "statusInactive": "Inactive",
+  "@statusInactive": {
+    "description": "Status badge label for inactive state"
+  },
+  "product": "Product",
+  "@product": {
+    "description": "Product label fallback"
+  },
+  "shareDeliveryReportScreenTitle": "Share Report",
+  "@shareDeliveryReportScreenTitle": {
+    "description": "Title for the share delivery report screen"
+  },
+  "filterToday": "Today",
+  "filterYesterday": "Yesterday",
+  "filterThisWeek": "This Week",
+  "filterLast15Days": "Last 15 Days",
+  "filterLastMonth": "Last Month",
+  "filterCurrentMonth": "Current Month",
+  "filterCustom": "Custom",
+  "filterFrom": "From",
+  "filterTo": "To",
+  "errorFromAfterTo": "From date cannot be after To date",
+  "emptyDeliveriesInRange": "No deliveries in this range",
+  "shareAction": "Share",
+  "@shareAction": {
+    "description": "Button to share"
+  },
+  "deliveryFooterDelivered": "{qty} {unit} delivered  •  Rs. {amount}",
+  "@deliveryFooterDelivered": {
+    "description": "Footer for delivered status",
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "addSupplierTitle": "Add Supplier",
+  "@addSupplierTitle": {
+    "description": "Title of the Add Supplier sheet"
+  },
+  "supplierNameLabel": "Supplier Name",
+  "@supplierNameLabel": {
+    "description": "Label for supplier name input"
+  },
+  "supplierNameHint": "e.g. Ahmed Dairy Farm",
+  "@supplierNameHint": {
+    "description": "Hint for supplier name input"
+  },
+  "supplierPhoneLabel": "Phone Number (Optional)",
+  "@supplierPhoneLabel": {
+    "description": "Label for supplier phone input"
+  },
+  "supplierLocationLabel": "Location / Area (Optional)",
+  "@supplierLocationLabel": {
+    "description": "Label for supplier location input"
+  },
+  "supplierLocationHint": "e.g. Vehari",
+  "@supplierLocationHint": {
+    "description": "Hint for supplier location input"
+  },
+  "supplierMilkTypeLabel": "Milk Type (Optional)",
+  "@supplierMilkTypeLabel": {
+    "description": "Label for supplier milk type input"
+  },
+  "supplierMilkTypeHint": "e.g. Buffalo, Cow",
+  "@supplierMilkTypeHint": {
+    "description": "Hint for supplier milk type input"
+  },
+  "supplierRateLabel": "Rate per Litre",
+  "@supplierRateLabel": {
+    "description": "Label for supplier rate input"
+  },
+  "supplierRateHint": "0",
+  "@supplierRateHint": {
+    "description": "Hint for supplier rate input"
+  },
+  "saveSupplierAction": "Save Supplier",
+  "@saveSupplierAction": {
+    "description": "Button label to save supplier"
+  },
+  "errorSupplierNameRequired": "Supplier name is required",
+  "@errorSupplierNameRequired": {
+    "description": "Validation error when supplier name is empty"
+  },
+  "supplierSavedSuccess": "Supplier added successfully",
+  "@supplierSavedSuccess": {
+    "description": "Snackbar message when supplier is added"
+  },
+  "errorSavingSupplier": "Failed to save supplier. Please try again.",
+  "@errorSavingSupplier": {
+    "description": "Error message when saving a supplier fails"
+  },
+  "editSupplierTitle": "Edit Supplier",
+  "@editSupplierTitle": {
+    "description": "Title of the Edit Supplier sheet"
+  },
+  "archiveSupplierAction": "Archive Supplier",
+  "@archiveSupplierAction": {
+    "description": "Button label to archive supplier"
+  },
+  "archiveSupplierConfirmTitle": "Archive Supplier",
+  "@archiveSupplierConfirmTitle": {
+    "description": "Title for archive confirm dialog"
+  },
+  "archiveSupplierConfirmBody": "Are you sure you want to archive this supplier?",
+  "@archiveSupplierConfirmBody": {
+    "description": "Body for archive confirm dialog"
+  },
+  "errorKhataMustBeCleared": "Khata must be cleared before archiving",
+  "@errorKhataMustBeCleared": {
+    "description": "Error when trying to archive with pending khata"
+  },
+  "editSupplierTooltip": "Edit Supplier",
+  "@editSupplierTooltip": {
+    "description": "Tooltip for edit supplier button"
+  },
+  "supplierUpdatedSuccess": "Supplier updated successfully",
+  "@supplierUpdatedSuccess": {
+    "description": "Snackbar message when supplier is updated"
+  },
+  "supplierArchivedSuccess": "Supplier archived",
+  "@supplierArchivedSuccess": {
+    "description": "Snackbar message when supplier is archived"
+  },
+  "actionCancel": "Cancel",
+  "@actionCancel": {
+    "description": "Generic cancel action"
+  },
+  "actionConfirm": "Confirm",
+  "@actionConfirm": {
+    "description": "Generic confirm action"
+  },
+  "addSupplierFab": "Add Supplier",
+  "@addSupplierFab": {
+    "description": "Floating action button label to add a supplier"
+  },
+  "errorRecordingMilk": "Failed to record milk. Please try again.",
+  "@errorRecordingMilk": {
+    "description": "Error message when milk recording fails"
+  },
+  "recordDateLabel": "Date",
+  "@recordDateLabel": {
+    "description": "Label for the selected date when recording milk"
+  },
+  "milkInwardHistoryTitle": "Milk Inward History",
+  "@milkInwardHistoryTitle": {
+    "description": "Title for the milk inward history screen"
+  },
+  "historyRangeToday": "Today",
+  "@historyRangeToday": {
+    "description": "Filter chip for today"
+  },
+  "historySupplierLabel": "Supplier",
+  "@historySupplierLabel": {
+    "description": "Label for supplier dropdown"
+  },
+  "historyNoDeliveries": "No deliveries in this period",
+  "@historyNoDeliveries": {
+    "description": "Empty state title"
+  },
+  "historyNoDeliveriesSubtitle": "Try another date range, supplier or shift.",
+  "@historyNoDeliveriesSubtitle": {
+    "description": "Empty state subtitle"
+  },
+  "historyEntriesCount": "{count} entries",
+  "@historyEntriesCount": {
+    "description": "Count of history entries",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "historyTotalAmount": "Total Amount",
+  "@historyTotalAmount": {
+    "description": "Label for total amount metric"
+  },
+  "historyArchivedSuffix": "(Archived)",
+  "@historyArchivedSuffix": {
+    "description": "Suffix added to archived suppliers in history screen"
+  },
+  "historyUnknownSupplier": "Unknown supplier",
+  "@historyUnknownSupplier": {
+    "description": "Fallback name when a supplier is not found in history screen"
+  },
+  "historyLoadError": "Could not load data. Please try again.",
+  "@historyLoadError": {
+    "description": "Generic error message when data fails to load in history screen"
+  },
+  "actionEditEntry": "Edit",
+  "actionDeleteEntry": "Delete",
+  "deleteConfirmTitle": "Delete Entry?",
+  "deleteConfirmMessage": "This cannot be undone from the app and the balance will be recalculated",
+  "entryDeletedSuccess": "Entry deleted successfully",
+  "entrySavedSuccess": "Entry saved successfully"
+}
